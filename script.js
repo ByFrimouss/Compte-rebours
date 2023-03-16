@@ -1,4 +1,4 @@
-//Définir une date
+//Définir une date futur
 
 var deadline = new Date("march 17, 2023 08:45:00").getTime();
 
@@ -14,7 +14,7 @@ var seconds = Math.floor((t % (1000 *60)) / 1000);
 
 //La sortie du résultat
 
-document.getElementById("demo").innerHTML = days + "j " + hours + "h " + minutes + "m " + seconds + "s ";
+document.getElementById("demo").innerHTML = days + " Jours " + hours + " Heures " + minutes + " Minutes " + seconds + " Secondes ";
 
 //Texte de compte à rebours terminé
 
