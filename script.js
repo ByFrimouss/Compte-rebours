@@ -1,6 +1,6 @@
 //Définir une date
 
-var deadline = new Date("aug 31, 2022 21:00:00").getTime();
+var deadline = new Date("march 17, 2023 08:45:00").getTime();
 
 //Calculer
 
